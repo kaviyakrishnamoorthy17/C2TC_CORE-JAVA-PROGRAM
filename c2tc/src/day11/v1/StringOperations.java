@@ -17,6 +17,7 @@ public class StringOperations {
 		endIndex=sc.nextInt();
 		str=message.substring(startIndex, endIndex);
 		System.out.println("The extracted message is: "+ str);
+		sc.close();
 	
 	}catch(StringIndexOutOfBoundsException ae) {
 		System.err.println("Error! Invalid index ");

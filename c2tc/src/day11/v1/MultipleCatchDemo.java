@@ -8,6 +8,7 @@ public class MultipleCatchDemo {
 		System.out.println("I am in main method");
 		int numberOne, numberTwo, numberThree;
 		Scanner sc = new Scanner(System.in);
+		sc.close();
 
 		while (true) {
 			try {

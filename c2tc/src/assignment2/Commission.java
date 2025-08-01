@@ -23,6 +23,7 @@ class Commission {
 
         System.out.print("Enter Sales Amount: ");
         salesAmount = sc.nextDouble();
+        sc.close();
     }
 
     // Method to calculate and display commission
